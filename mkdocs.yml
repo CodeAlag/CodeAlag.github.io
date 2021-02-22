@@ -13,7 +13,7 @@ theme:
     - navigation.sections
     - navigation.tabs
   palette:
-    scheme: slate
+    scheme: default
     
 # Extensions
 markdown_extensions:
