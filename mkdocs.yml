@@ -1,22 +1,52 @@
 site_name: CodeAlag
 copyright: Copyright &copy; 2021 CodeAlag
-extra:
-  generator: false
-theme:
-  name: material
-  palette:
-    # Toggle light mode
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
 
-    # Toggle dark mode
-    - scheme: slate
-      primary: blue
-      accent: blue
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+theme:
+  name: 'material'
+  language: 'en'
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+  features:
+    - tabs
+    
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - mdx_math:
+      enable_dollar_delimiter: true
+  - toc:
+      permalink: true
+      separator: '_'
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - en
+
+# Customization
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML'
+extra:
+  generator: 'false'
+  social:
+    - icon: 'fontawesome/brands/github-alt'
+      link: 'https://github.com/codealag'
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/codealag'
+
+# Page tree
+nav:
+  - 'Home': 'index.md'
+  - 'Data Structures & Algorithms':
+    - 'Introduction': 'Data-Structures-And-Algorithms/introduction.md'
+    - 'Data Types': 'Data-Structures-And-Algorithms/datatypes.md'
+    - 'Array': 'Data-Structures-And-Algorithms/array.md'
