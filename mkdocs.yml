@@ -1,9 +1,9 @@
 site_name: CodeAlag
+copyright: Copyright &copy; 2021 CodeAlag
+extra:
+  generator: false
 theme:
   name: material
-  copyright: Copyright &copy; 2021 CodeAlag
-  extra:
-    generator: false
   palette:
     # Toggle light mode
     - scheme: default
