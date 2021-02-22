@@ -9,11 +9,11 @@ theme:
     next: 78     # n
     previous: 80 # p
     search: 83   # s
-  palette:
-    primary: 'blue'
-    accent: 'blue'
   features:
-    - tabs
+    - navigation.sections
+    - navigation.tabs
+  palette:
+    scheme: slate
     
 # Extensions
 markdown_extensions:
