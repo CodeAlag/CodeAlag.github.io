@@ -7,7 +7,7 @@ copyright: Copyright &copy; 2021 CodeAlag
 theme:
   name: 'material'
   language: 'en'
-  custom_dir: Docs
+  docs_dir: Docs
   shortcuts:
     help: 191    # ?
     next: 78     # n
