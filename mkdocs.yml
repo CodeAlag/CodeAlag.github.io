@@ -49,7 +49,7 @@ extra:
 
 # Page tree	
 nav:
-  - 'Home': 'Index.md'
+  - 'Home': 'index.md'
   - 'Data Structures & Algorithms':
     - 'Introduction': 'data-structures-and-algorithms/introduction.md'
     - 'Data Types': 'data-structures-and-algorithms/data-types.md'
