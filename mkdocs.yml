@@ -1,9 +1,13 @@
 site_name: CodeAlag
+site_url: https://codealag.github.io/
+site_author: CodeAlag
+site_description: Programming concepts taught by non cs developers
 copyright: Copyright &copy; 2021 CodeAlag
 
 theme:
   name: 'material'
   language: 'en'
+  custom_dir: Docs
   shortcuts:
     help: 191    # ?
     next: 78     # n
@@ -42,11 +46,3 @@ extra:
       link: 'https://github.com/codealag'
     - icon: 'fontawesome/brands/twitter'
       link: 'https://twitter.com/codealag'
-
-# Page tree
-nav:
-  - 'Home': 'index.md'
-  - 'Data Structures & Algorithms':
-    - 'Introduction': 'Data-Structures-And-Algorithms/introduction.md'
-    - 'Data Types': 'Data-Structures-And-Algorithms/datatypes.md'
-    - 'Array': 'Data-Structures-And-Algorithms/array.md'
