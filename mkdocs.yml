@@ -46,3 +46,11 @@ extra:
       link: 'https://github.com/codealag'
     - icon: 'fontawesome/brands/twitter'
       link: 'https://twitter.com/codealag'
+
+# Page tree	
+nav:	
+  - 'Home': 'Index.md'	
+  - 'Data Structures & Algorithms':	
+    - 'Introduction': 'Data-Structures-And-Algorithms/Introduction.md'	
+    - 'Data Types': 'Data-Structures-And-Algorithms/DataTypes.md'	
+    - 'Array': 'Data-Structures-And-Algorithms/FixedArray.md'
