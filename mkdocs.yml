@@ -48,7 +48,7 @@ extra:
       link: 'https://twitter.com/codealag'
 
 # Page tree	
-nav:	
+nav:
   - 'Home': 'Index.md'	
   - 'Data Structures & Algorithms':	
     - 'Introduction': 'Data-Structures-And-Algorithms/Introduction.md'	
