@@ -49,8 +49,8 @@ extra:
 
 # Page tree	
 nav:
-  - 'Home': 'Index.md'	
-  - 'Data Structures & Algorithms':	
-    - 'Introduction': 'Data-Structures-And-Algorithms/Introduction.md'	
-    - 'Data Types': 'Data-Structures-And-Algorithms/DataTypes.md'	
-    - 'Array': 'Data-Structures-And-Algorithms/FixedArray.md'
+  - 'Home': 'Index.md'
+  - 'Data Structures & Algorithms':
+    - 'Introduction': 'Data-Structures-And-Algorithms/Introduction.md'
+    - 'Data Types': 'Data-Structures-And-Algorithms/DataTypes.md'
+    - 'Fixed Array': 'Data-Structures-And-Algorithms/FixedArray.md'
