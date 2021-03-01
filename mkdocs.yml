@@ -54,6 +54,6 @@ nav:
     - 'Introduction': 'data-structures-and-algorithms/introduction.md'
     - 'Data Types': 'data-structures-and-algorithms/data-types.md'
     - 'Memory Allocation': 'data-structures-and-algorithms/memory-allocation.md'
-    - 'Arrays'
+    - 'Arrays':
       - 'Fixed Array': 'data-structures-and-algorithms/fixed-array.md'
       - 'Dynamic Array': 'data-structures-and-algorithms/dynamic-array.md'
