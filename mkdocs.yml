@@ -1,13 +1,12 @@
 site_name: CodeAlag
 site_url: https://codealag.github.io/
 site_author: CodeAlag
-site_description: Programming concepts taught by non cs developers
+site_description: Programming Fundamentals
 copyright: Copyright &copy; 2021 CodeAlag
 
 theme:
   name: 'material'
   language: 'en'
-  docs_dir: Docs
   shortcuts:
     help: 191    # ?
     next: 78     # n
@@ -50,10 +49,12 @@ extra:
 # Page tree	
 nav:
   - 'Home': 'index.md'
-  - 'Data Structures & Algorithms':
-    - 'Introduction': 'data-structures-and-algorithms/introduction.md'
-    - 'Data Types': 'data-structures-and-algorithms/data-types.md'
-    - 'Memory Allocation': 'data-structures-and-algorithms/memory-allocation.md'
+  - 'Data Structures':
+    - 'Introduction': 'data-structures/introduction.md'
+    - 'Data Types': 'data-structures/data-types.md'
+    - 'Memory Allocation': 'data-structures/memory-allocation.md'
     - 'Arrays':
-      - 'Fixed Array': 'data-structures-and-algorithms/fixed-array.md'
-      - 'Dynamic Array': 'data-structures-and-algorithms/dynamic-array.md'
+      - 'Fixed Array': 'data-structures/fixed-array.md'
+      - 'Dynamic Array': 'data-structures/dynamic-array.md'
+  - 'Algorithms':
+    - 'Introduction': 'algorithms/introduction.md'
